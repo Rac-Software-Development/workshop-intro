@@ -1,14 +1,14 @@
 # workshop-intro
-Welkom bij de Introductieweek voor software developement! In dit document kan je een makkelijk overzicht vinden hoe je alles kan installeren en klaar kan zetten voor de lessen die volgen.
+Welkom bij de Introductieweek voor software developement! In dit document kan je een makkelijk overzicht vinden hoe je alles kan installeren en klaar kan zetten voor de lessen die volgen. Alles wat in dit document behandeld wordt. wordt uitgebreider uitgelegt tijdens de lessen en werkplaats.
 
 ## Short list
 * Installeer Python (https://python.org)
 * Vraag de Jetbrains Student Pack aan (https://www.jetbrains.com/academy/student-pack/)
 * Installeer PyCharm (https://www.jetbrains.com/pycharm/)
 * Maak een GitHub account aan (https://github.com/)
+* Installeer git
 * Maak een  SSH key aan
 * Voeg SSH key toe aan Github
-* Installeer git
 
 ---
 
@@ -23,7 +23,7 @@ De versie die jij ziet in de knop kan anders zijn dan die in de screenshot. Dat 
 Op Windows: dubbelklik op het gedownloade .exe-bestand.
 Op macOS: open het .pkg-bestand.
 
-4. Voeg Python toe aan je PATH en doorloop de installer
+4. **ALLEEN WINDOWS** Voeg Python toe aan je PATH en doorloop de installer
 Als je de installer opent krijg je dit scherm te zien. Zorg dat de PATH checkbox aangevinkt is.<br>
 ![image](https://github.com/user-attachments/assets/94cd9a72-ae5f-492b-b07e-eb06ec7700ba)
 
@@ -35,7 +35,7 @@ Voor MacOS: Klik `CMD+Spatie` en typ dan vervolgens `Terminal` en open deze.
 
 Als je al een Terminal open hebt staan, open die dan opnieuw.
 
-Typ vervolgens `python` of `py` in je terminal en klik op Enter. Je zal de versie van Python die je ingestalleerd heb staan moeten zien:
+Typ vervolgens `python`, `py`, of voor MacOS `python3` in je terminal en klik op Enter. Je zal de versie van Python die je ingestalleerd heb staan moeten zien:
 ![image](https://github.com/user-attachments/assets/fa4e1604-87e9-4f55-b9a9-07406cb74ad4)
 
 Dit is een teken dat Python werkt! Je kan nu je terminal sluiten.
@@ -77,7 +77,7 @@ Voor de lessen gebruiken we een programmeer omgeving (IDE) genaamd PyCharm. PyCh
    * **macOS:** open het `.dmg`‑bestand en sleep PyCharm naar **Applications**  
    * **Linux:** pak het `.tar.gz`‑archief uit en volg de README  
 
-6. Bij installatie opties vink de PATH checkbox aan. Zie hiervoor de screenshot.
+6. **ALLEEN WINDOWS** Bij installatie opties vink de PATH checkbox aan. Zie hiervoor de screenshot.
     Optioneel: 
    * Bureaublad‑icoon nodig? Vink **Create Desktop Shortcut** aan  
    * Altijd Python‑bestanden in PyCharm openen? Vink **Create Association** aan
@@ -88,6 +88,39 @@ Voor de lessen gebruiken we een programmeer omgeving (IDE) genaamd PyCharm. PyCh
 9. Zoek *PyCharm* via je start‑ of launcherscherm en open het. Zie je het welkomstscherm? Top! PyCharm is klaar voor gebruik.
    <img width="1519" height="1102" alt="PyCharm start­scherm – installatie gelukt" src="https://github.com/user-attachments/assets/b1ab2c0f-1e16-4157-88e8-98153010f1aa" />
 
+---
+## GitHub Account aanmaken
+GitHub is het platform waar wij jullie code gaan nakijken, maar ook waar jullie gaan samenwerken aan code. Het is ook waar je nu deze README op bekijkt.
 
- 
+Sommige van jullie hebben waarschijnlijk al een account. Kies hieronder wat geldt voor jou:
+
+<details>
+<summary><strong>Ik heb al een account</strong></summary>
+
+Als je al een account hebt zijn er 2 opties:
+
+1. Pas je gebruikersnaam aan naar `voornaam-studentnummer` (bijv. `jan-1234567`).  
+   Ga naar **Settings ▸ Account** en klik op **Change username**.
+
+2. Maak een nieuw GitHub‑account aan en volg het kopje **Ik heb nog geen GitHub‑account** hieronder.
+
+Dit helpt ons voorkomen dat we straks moeten uitzoeken wie `hetekaastosti301` is op GitHub tijdens het nakijken. 😅
+
+</details>
+
+<details>
+<summary><strong>Ik heb nog geen GitHub-account</strong></summary>
+
+1. **Open** <https://github.com/signup>  
+2. Maak een **gebruikersnaam** aan dat het volgende patroon volgt: `voornaam-studentnummer`, bijvoorbeeld `jan-1234567`.  
+3. Gebruik je **privé‑e‑mail** als hoofdadres en stel een sterk **wachtwoord** in.  
+4. Klik op **Create account** en voltooi de CAPTCHA en e‑mail­verificatie.  
+5. Na het inloggen:  
+   * Klik op je profielfoto rechtsbove in de hoek. Ga naar **Settings ▸ Emails**.  
+     * Controleer dat je privé‑e‑mail op **Verified** staat en maak het je **Primary email**.  
+     * Voeg je **HR‑e‑mail** toe en verifieer ook deze (voor de Student Pack).  
+
+Dit is nu ook klaar. Je GitHub‑account is actief én blijft van jou nadat je bent afgestudeerd!
+
+</details>
 
