@@ -1,4 +1,4 @@
-# workshop-intro
+# Workshop Intro
 Welkom bij de Introductieweek voor software developement! In dit document kan je een makkelijk overzicht vinden hoe je alles kan installeren en klaar kan zetten voor de lessen die volgen. Alles wat in dit document behandeld wordt. wordt uitgebreider uitgelegt tijdens de lessen en werkplaats.
 
 ## Short list
