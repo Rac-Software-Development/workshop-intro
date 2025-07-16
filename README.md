@@ -10,6 +10,8 @@ Welkom bij de Introductieweek voor software developement! In dit document kan je
 * Voeg SSH key toe aan Github
 * Installeer git
 
+---
+
 ## Python
 1. Ga naar [python.org/downloads](python.org/downloads).
 2. Klik op de grote gele `Download Python 3.x.x`
@@ -38,4 +40,54 @@ Typ vervolgens `python` of `py` in je terminal en klik op Enter. Je zal de versi
 
 Dit is een teken dat Python werkt! Je kan nu je terminal sluiten.
 
-Krijg je een error? Probeer dan `python3`
+---
+
+## JetBrains Educational Pack (gratis licenties)
+Voor de lessen gebruiken we een programmeer omgeving (IDE) genaamd PyCharm. PyCharm is van het bedrijf JetBrains en de volledige versie van deze omgeving kost normaal gesproken geld. Gelukkig kan je gratis toegang krijgen door de Jetbrains educational pack aan te vragen.
+
+1. **Open** je browser en ga naar <https://www.jetbrains.com/academy/student-pack/>  
+2. Klik op de grote **Request Now** knop  
+3. Vul het formulier in – zo kan het eruitzien:  
+
+   * **Country:** Netherlands  
+   * **Level of study:** Undergraduate  
+   * **Field of study:** Computer Science  
+   * **e‑mail address:** je HR‑mailadres  
+   * **Personal e‑mail:** je privémail  
+
+4. Klik op **Apply for free products** en wacht even  
+5. Je ontvangt een e‑mail op je HR‑mail. Klik op de link in die mail  
+   ![Email van Jetbrains](https://github.com/user-attachments/assets/738bad74-de73-467c-bfc1-5f621febfad9)  
+6. Log in of maak een JetBrains‑account aan  
+7. In je profiel (via <https://account.jetbrains.com/licenses>) zie je nu dat de **JetBrains Educational Pack** actief is:  
+   ![Student Pack staat actief in je account](https://github.com/user-attachments/assets/185e0b19-bbc3-44d8-9f7a-474a2865c5ee)
+
+---
+
+## PyCharm
+
+1. Terwijl je bent ingelogd bij JetBrains, ga naar <https://account.jetbrains.com/licenses>  
+2. Zoek onder **Educational Pack** naar **PyCharm** (zie rechts in het screenshot)  
+   ![PyCharm Professional in de licentielijst](https://github.com/user-attachments/assets/7a2e7750-611e-4f11-9f00-b7e5c1291d31)
+3. Klik op de Pycharm pagina op de **Download** knop
+
+4. Kies de juiste installer voor jouw besturingssysteem (Windows, macOS of Linux) en download deze  
+5. Start de installer:  
+   * **Windows:** dubbelklik op het `.exe`‑bestand  
+   * **macOS:** open het `.dmg`‑bestand en sleep PyCharm naar **Applications**  
+   * **Linux:** pak het `.tar.gz`‑archief uit en volg de README  
+
+6. Bij installatie opties vink de PATH checkbox aan. Zie hiervoor de screenshot.
+    Optioneel: 
+   * Bureaublad‑icoon nodig? Vink **Create Desktop Shortcut** aan  
+   * Altijd Python‑bestanden in PyCharm openen? Vink **Create Association** aan
+
+   ![Installatie­opties – vinkjes kun je aanvinken maar hoeft niet](https://github.com/user-attachments/assets/03bf70a7-96f3-456f-b7eb-3c8a7bae3d0f)  
+
+8. Doorloop de rest van de installer en wacht tot de installatie klaar is  
+9. Zoek *PyCharm* via je start‑ of launcherscherm en open het. Zie je het welkomstscherm? Top! PyCharm is klaar voor gebruik.
+   <img width="1519" height="1102" alt="PyCharm start­scherm – installatie gelukt" src="https://github.com/user-attachments/assets/b1ab2c0f-1e16-4157-88e8-98153010f1aa" />
+
+
+ 
+
