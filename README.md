@@ -14,9 +14,9 @@ Welkom bij de Introductieweek voor software development! In dit document kan je 
 
 ## Python installeren
 1. Ga naar [python.org/downloads](https://python.org/downloads).
-2. Klik op de grote gele `Download Python 3.x.x`
+2. Klik op de link onder de gele button met `Get the standalone installer for Python 3.x.x`
 
-![Python.org downloadpagina met een knop om Python 3.13.5 voor Windows te downloaden, versierd met parachutes die dozen dragen.](img/1.png)
+![Python.org downloadpagina, versierd met parachutes die dozen dragen.](img/1.png)
 De versie die jij ziet in de knop kan anders zijn dan die in de screenshot. Dat maakt niks uit.
 
 3. Start de installer<br>
@@ -123,6 +123,38 @@ Dit helpt ons voorkomen dat we straks moeten uitzoeken wie `hetekaastosti301` is
 Dit is nu ook klaar. Je GitHub‑account is actief én blijft van jou nadat je bent afgestudeerd!
 
 </details>
+
+---
+
+### Twee-factor-authenticatie (2FA) instellen voor GitHub
+
+Onze GitHub-omgeving is alleen bereikbaar wanneer je account aan de benodigde beveiligingseisen voldoet. Om toegang te krijgen moet je **twee-factor-authenticatie (2FA)** inschakelen. Gebruik hiervoor **geen SMS**, maar een authenticator-app.
+
+1. Klik rechtsboven op je **profielfoto** en ga naar **Settings**.
+2. Ga in het menu naar **Password and authentication**.
+3. Zoek het onderdeel **Two-factor authentication** en klik op **Enable two-factor authentication**.
+4. Kies voor **Authenticator app**.
+5. Open een authenticator-app op je telefoon, bijvoorbeeld:
+
+    * Google Authenticator
+    * Microsoft Authenticator
+    * Authy
+    * Een andere authenticator-app die TOTP ondersteunt
+6. Scan de QR-code die GitHub laat zien met de authenticator-app.
+7. Vul de gegenereerde code in op GitHub om de configuratie te bevestigen.
+8. GitHub geeft je vervolgens **recovery codes**. Sla deze codes op een veilige plek op.
+
+   Bewaar je recovery codes bij voorkeur op **meerdere veilige plekken**. Deze codes heb je nodig als je bijvoorbeeld je telefoon of laptop kwijtraakt, een apparaat kapotgaat of je om een andere reden geen toegang meer hebt tot je authenticator-app.
+
+   Je kunt bijvoorbeeld:
+
+    * De recovery codes opslaan in een password manager.
+    * Een tweede veilige kopie bewaren op een ander apparaat of een versleutelde opslaglocatie.
+    * Een geprinte kopie op een veilige plek bewaren.
+
+   Zorg ervoor dat je recovery codes **niet alleen op hetzelfde apparaat staan als je authenticator-app**. Als dat apparaat verloren gaat of kapotgaat, kun je anders alsnog geen toegang krijgen tot je GitHub-account.
+
+> **Let op:** Gebruik voor 2FA **geen SMS**. Stel een authenticator-app in en bewaar je recovery codes op meerdere veilige plekken, zodat je ook bij verlies of schade van een apparaat toegang tot je account kunt herstellen.
 
 ---
 
