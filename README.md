@@ -223,47 +223,88 @@ Doe hiervoor het volgende:
 
 ---
 
-## SSH Key Aanmaken en Toevoegen aan GitHub
+## SSH Key Aanmaken
 
-Een SSH key stelt je in staat om veilig te communiceren met GitHub zonder telkens je wachtwoord in te voeren.
-Stappen voor het aanmaken van een SSH key:
+Een SSH key stelt je in staat om veilig met GitHub te communiceren zonder telkens je GitHub-inloggegevens te hoeven invoeren.
 
-1. **Open Terminal (macOS/Linux) of Powershell (Windows)**.
-2. **Genereer een nieuwe SSH key**:
-   ```
-   ssh-keygen -t ed25519 -C "jouw.email@example.com"
-   ```
-   (Vervang het e-mailadres door het e-mailadres dat je voor GitHub gebruikt)
-3. **Wanneer je wordt gevraagd om een bestandslocatie**, druk op Enter om de standaardlocatie te accepteren.
-4. **Wanneer je wordt gevraagd om een wachtwoord**, kun je een wachtwoord invoeren of op Enter drukken voor geen wachtwoord (een wachtwoord is veiliger).
-5. **Start de SSH-agent**:
-   * **macOS/Linux**:
-     ```
-     eval "$(ssh-agent -s)"
-     ssh-add ~/.ssh/id_ed25519
-     ```
-   * **Windows**:
-     ```
-     Start-Service ssh-agent
-     ssh-add $env:USERPROFILE\.ssh\id_ed25519
-     ```
-6. **Kopieer de SSH key naar je klembord**:
-   * **macOS**:
-     ```
-     pbcopy < ~/.ssh/id_ed25519.pub
-     ```
-   * **Windows**:
-     ```
-     Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | Set-Clipboard
-     ```
-   * **Linux**:
-     ```
-     cat ~/.ssh/id_ed25519.pub
-     ```
-     Kopieer de uitvoer handmatig.
+### 1. Open een terminal
 
-Hierdoor heb je de SSH key gekopieerd en kan je het zometeen makkelijk toevoegen aan GitHub.
+* **macOS/Linux:** open Terminal
+* **Windows:** open PowerShell
 
+### 2. Genereer een nieuwe SSH key
+
+```bash
+ssh-keygen -t ed25519 -C "jouw.email@example.com"
+```
+
+Vervang het e-mailadres door het e-mailadres dat je voor GitHub gebruikt.
+
+### 3. Kies waar de key wordt opgeslagen
+
+Wanneer je wordt gevraagd om een bestandslocatie, druk je op **Enter** om de standaardlocatie te gebruiken.
+
+Als er al een SSH key met dezelfde naam bestaat, overschrijf deze dan niet zomaar. Kies in dat geval een andere bestandsnaam.
+
+### 4. Kies een passphrase
+
+Je kunt een passphrase invoeren om je SSH key extra te beveiligen. Je kunt ook op **Enter** drukken om geen passphrase te gebruiken.
+
+Een passphrase is veiliger en wordt daarom aanbevolen.
+
+### 5. Voeg de SSH key toe aan de SSH-agent
+
+#### macOS/Linux
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+
+#### Windows
+
+De Windows SSH-agent moet mogelijk eerst worden ingeschakeld.
+
+Open hiervoor **PowerShell als Administrator** en voer uit:
+
+```powershell
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+Start-Service ssh-agent
+```
+
+Sluit daarna het Administrator-venster en open een normale PowerShell.
+
+Voeg vervolgens je SSH key toe:
+
+```powershell
+ssh-add $env:USERPROFILE\.ssh\id_ed25519
+```
+
+### 6. Kopieer je publieke SSH key
+
+#### macOS
+
+```bash
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+
+#### Windows
+
+```powershell
+Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | Set-Clipboard
+```
+
+#### Linux
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+Kopieer bij Linux de uitvoer handmatig.
+
+Je publieke SSH key staat nu op je klembord en kan worden toegevoegd aan GitHub.
+
+---
 
 ## SSH Key Toevoegen aan GitHub 
 
